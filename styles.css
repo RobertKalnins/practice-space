@@ -1,15 +1,19 @@
 div {
+}
+div h1 {
     position: absolute;
     left: 20%;
-    padding: 2px;
     border-style: solid;
     border-width: 3px;
     border-color: black;
     color: red;
 }
-p {
-    padding: 50,50,50,50;
-    border: 5px;
-    border-color: aqua;
-    color: red;
+div p {
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    top: 100px;
+    left: 100px;
+    color: black;
 }
