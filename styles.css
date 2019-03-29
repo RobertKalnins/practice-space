@@ -1,3 +1,15 @@
+form {
+    box-sizing: content-box;
+    width: 50%;   
+    position: relative;
+    top: 100px;
+    left: 300px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    color: black;
+}
+
 div {
     box-sizing: content-box;
     width: 50%;
@@ -13,13 +25,27 @@ div h1 {
 }
 div p {
     position: relative;
+    top: 100px;
+    left: 300px;
     border-style: solid;
     border-width: 3px;
     border-color: black;
-    top: 100px;
-    left: 100px;
     color: black;
 }
 .sample-text {
     font-weight: 100;
+}
+.credit {
+    position: fixed;
+    bottom: 0;
+    height: 150px;
+    width: 400px;
+    z-index: 100;
+}
+.bottom-background {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 200px;
+    z-index: -500;
 }
